@@ -5,6 +5,7 @@ class Bus:
   def __init__(self, id, plazas):
     self.plazas = plazas
     self.billetes = [None]*self.plazas
+    self.id = id
 
   def venta(self, name, cnt):
     contador = 0
