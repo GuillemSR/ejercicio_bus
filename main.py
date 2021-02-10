@@ -58,6 +58,4 @@ def main():
         elif operacion == "0" or operacion.casefold().capitalize() == "Salir":
             salir = True
 
-
-
 main()    
